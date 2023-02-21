@@ -1,0 +1,130 @@
+@media screen and (max-width: 800px) {
+    /* heading container */
+    .nav-bar {
+        width: 90%;
+    }
+    .nav-links {
+        display: none;
+    }
+    .social-media-links {
+        display: none;
+    }
+    .header-texts {
+        width: 90%;
+    }
+    .header-texts > h1 {
+        width: 80%;
+    }
+    .hamburger {
+        display: flex;
+        margin-top: 10px;
+    }
+    .vertical-nav-bar {
+        display: flex;
+    }
+    
+
+    /* features container */
+    .feature-box-cont {
+        flex-direction: column;
+        width: 100%;
+    }
+    .feature-box {
+        margin: 40px;
+    }
+
+    /* video container */
+
+    /* laptop image container */
+    .laptop-img-container {
+        flex-direction: column;
+        width: 100%;
+    }
+    .lap-texts-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .lap-texts-container > h3 {
+        text-align: center;
+    }
+    .lap-texts-container > p {
+        text-align: center;
+    }
+
+    /* newsletter container */
+    .newsletter-cont {
+        flex-direction: column;
+        width: 90%;
+    }
+    .subscription {
+        margin-top: 50px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+    .sub-input {
+        width: 100%;
+        display: inherit;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sub-input > input {
+        margin-left: 0;
+        width: 300px;
+    }
+    .news-sub-btn {
+        width: 300px;
+        margin-top: 10px;
+        margin-left: 0;
+    }
+    .texts-cont-1 {
+        display: none;
+    }
+
+    /* clients/partners container */
+
+    /* testimonials container */
+
+    /* pricing container */
+    .price-display-cont {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .price-modal {
+        width: 300px;
+        margin-bottom: 30px;
+        transition: 1.5s ease all;
+    }
+    .price-modal:hover {
+        padding: 0;
+    }
+
+    /* contact styling */
+    .form-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    form {
+        width: 50%;
+        margin-bottom: 50px;
+    }
+    .contact-social-media {
+        align-self: center;
+    }
+
+    /* footer styling */
+    .footer-cont {
+        flex-direction: column;
+    }
+    .menu-wraper {
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    .footer-info {
+        margin: 50px auto 0 auto;
+        width: 50%;
+    }
+}

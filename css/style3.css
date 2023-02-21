@@ -1,0 +1,208 @@
+:root {
+    --font-style: "Graphik", sans-serif;
+    --white-text: #ffffff;
+    --text-color1: #252B42;
+    --text-color2: #374754;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* contact styling */
+
+.contact-modal {
+    margin-top: 100px;
+}
+.contact-texts {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.contact-texts h2 {
+    color: var(--text-color1);
+    font-family: var(--font-style);
+    font-weight: 100;
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+.contact-texts p {
+    color: var(--text-color2);
+    font-family: var(--font-style);
+    font-size: 1.3em;
+}
+.form-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+    margin: 50px auto 100px auto;
+}
+form {
+    border: 1px solid #E8E8E8;
+    display: flex;
+    width: 35%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 1px 5px 10px #E8E8E8;
+}
+form h3 {
+    font-family: var(--font-style);
+    color: var(--text-color1);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+form input {
+    width: 80%;
+    background-color: #F5F5F5;
+    border: 1px solid transparent;
+    height: 45px;
+    border-radius: 40px;
+    margin-bottom: 30px;
+}
+form input[type="text"] {
+    padding-left: 20px;
+}
+form input::placeholder {
+    color: #18171D;
+    font-family: var(--font-style);
+}
+textarea {
+    background-color: #F5F5F5;
+    border: none;
+    border-radius: 5px;
+    width: 80%;
+}
+input[value="Send"] {
+    background-color: #2091F9;
+    width: 30%;
+    height: 45px;
+    align-self: flex-start;
+    color: var(--white-text);
+    font-family: var(--font-style);
+    font-size: .9em;
+    margin-left: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+textarea::placeholder {
+    color: #18171D;
+    font-family: var(--font-style);
+    padding: 20px;
+}
+.contact-location {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+}
+.address-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.address-cont {
+    display: inherit;
+    flex-direction: column;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+}
+.address-cont img {
+    margin-bottom: 10px;
+    width: 25px;
+    margin-bottom: 20px;
+}
+.address-cont p, a {
+    color: #374754;
+    font-family: var(--font-style);
+    text-decoration: none;
+    font-size: .8em;
+    text-align: center;
+    height: 10%;
+}
+#contact-loc-text {
+    width: 20em;
+}
+#map-img {
+    width: 75%;
+    margin: 30px;
+}
+.contact-social-media {
+    align-self: flex-start;
+}
+.contact-social-media img {
+    padding-right: 10px;
+    width: 45px;
+}
+/* footer styling */
+
+footer {
+    background-color: var(--text-color1);
+    border: 1px solid transparent;
+}
+.footer-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+    margin: 100px auto;
+}
+.menu-wraper {
+    display: inherit;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+}
+.footer-menu h2 {
+    color : var(--white-text);
+    font-family: var(--font-style);
+    font-size: 1.3em;
+    margin-bottom: 15px;
+    user-select: none;
+}
+.footer-menu ul li {
+    list-style-type: none;
+    padding: 15px 15px 15px 0;
+}
+.footer-menu ul li a {
+    color: var(--white-text);
+    text-decoration: none;
+    font-family: var(--font-style);
+    font-size: .9rem;
+}
+.footer-menu ul li a:hover {
+    text-decoration: underline;
+}
+.footer-info {
+    width: 30%;
+}
+.address-block {
+    height: 60px; 
+}
+.address-block img {
+    float: left;
+    width: 40px;
+    padding-right: 10px;
+}
+.address-block p {
+    float: left;
+    padding: 10px;
+    color: var(--white-text);
+    font-family: var(--font-style);
+    font-size: .9rem;
+}
+.address-block p a {
+    text-decoration: none;
+    color: var(--white-text);
+}
+.footer-social-media img {
+    padding-right: 10px;
+    width: 45px;
+}

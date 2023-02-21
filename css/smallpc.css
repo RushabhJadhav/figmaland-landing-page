@@ -1,0 +1,57 @@
+@media screen and (max-width: 1050px) {
+    /* heading container */
+    .header-texts > h1 {
+        font-size: 2.5em;
+    }
+
+    /* features container */
+    /* video container */
+
+    /* laptop image container */
+    /* .laptop-img-container {
+        width: 80%;
+    } */
+
+    /* newsletter container */
+    .newsletter-cont {
+        width: 80%;
+    }
+    /* .sub-input > input {
+        width: 45%;
+    } */
+    .new-sub-btn {
+        width: 30%;
+        font-size: .7em;
+    }
+
+    /* clients/partners container */
+    .partners-name-cont {
+        width: 85%;
+    }
+
+    /* testimonials container */
+    .testimonial-modal {
+        width: 60%;
+    }
+
+    /* pricing container */
+    .price-display-cont {
+        justify-content: space-evenly;
+        width: 90%;
+    }
+    /* .price-modal {
+    } */
+
+    /* contact styling */
+    .form-container {
+        width: 80%;
+    }
+    .address-cont p, a {
+        font-size: .7em;
+    }
+
+    /* footer styling */
+    .footer-cont {
+        width: 70%;
+    }
+}
